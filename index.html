@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajendra | Creative Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Rajendra, a passionate developer specializing in modern web experiences and premium design.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="cursor-glow"></div>
+    
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">R<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="reveal">Hello, I'm</h2>
+                <h1 class="reveal delay-1">Rajendra</h1>
+                <p class="reveal delay-2">Crafting premium digital experiences through code & design.</p>
+                <div class="cta-buttons reveal delay-3">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-image reveal delay-4">
+                <div class="image-wrapper">
+                    <img src="assets/profile.png" alt="Rajendra Profile">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text scroll-reveal">
+                    <p>I am a creative developer who loves turning complex problems into elegant, user-friendly solutions. My approach blends technical excellence with a keen eye for aesthetics, ensuring that every project is not just functional, but also visually stunning.</p>
+                    <div class="skills-grid">
+                        <div class="skill-tag">Web Design</div>
+                        <div class="skill-tag">Frontend Dev</div>
+                        <div class="skill-tag">UI/UX Design</div>
+                        <div class="skill-tag">Backend Integrations</div>
+                        <div class="skill-tag">Animations</div>
+                        <div class="skill-tag">SEO</div>
+                    </div>
+                </div>
+                <div class="about-stats scroll-reveal delay-1">
+                    <div class="stat-card">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>10+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card scroll-reveal">
+                    <div class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon">🔗</a>
+                        </div>
+                        <div class="placeholder-img" style="background: linear-gradient(135deg, #6c5ce7, #a29bfe);"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Digital Journal</h3>
+                        <p>A minimalist writing application focused on privacy and user experience.</p>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal delay-1">
+                    <div class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon">🔗</a>
+                        </div>
+                        <div class="placeholder-img" style="background: linear-gradient(135deg, #fd79a8, #fab1a0);"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Nexus AI</h3>
+                        <p>Intelligent chatbot system integrated with Google's Generative AI.</p>
+                    </div>
+                </div>
+                <div class="project-card scroll-reveal delay-2">
+                    <div class="project-img">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon">🔗</a>
+                        </div>
+                        <div class="placeholder-img" style="background: linear-gradient(135deg, #00cec9, #81ecec);"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Eco Scanner</h3>
+                        <p>Gamified document tracking with point-based rewards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-wrapper">
+                <form class="contact-form scroll-reveal">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder="Full Name">
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder="Email Address">
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info scroll-reveal delay-1">
+                    <h3>Let's create something together.</h3>
+                    <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                    <div class="social-links">
+                        <a href="#">Github</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Rajendra. Built with ❤️ and Code.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple scroll animation observer
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
+
+        // Animated mouse cursor glow
+        document.addEventListener('mousemove', (e) => {
+            const glow = document.querySelector('.cursor-glow');
+            glow.style.left = e.pageX + 'px';
+            glow.style.top = e.pageY + 'px';
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
